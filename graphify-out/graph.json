@@ -1,0 +1,350 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "analisar_imagem.js",
+      "file_type": "code",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L1",
+      "id": "analisar_imagem_js",
+      "community": 1,
+      "norm_label": "analisar_imagem.js"
+    },
+    {
+      "label": "__dirname",
+      "file_type": "code",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L19",
+      "id": "controlealmoxarifado_analisar_imagem_dirname",
+      "community": 1,
+      "norm_label": "__dirname"
+    },
+    {
+      "label": "CONFIG",
+      "file_type": "code",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L22",
+      "id": "controlealmoxarifado_analisar_imagem_config",
+      "community": 1,
+      "norm_label": "config"
+    },
+    {
+      "label": "analisarComOpenAI()",
+      "file_type": "code",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L43",
+      "id": "controlealmoxarifado_analisar_imagem_analisarcomopenai",
+      "community": 1,
+      "norm_label": "analisarcomopenai()"
+    },
+    {
+      "label": "analisarComOllama()",
+      "file_type": "code",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L80",
+      "id": "controlealmoxarifado_analisar_imagem_analisarcomollama",
+      "community": 1,
+      "norm_label": "analisarcomollama()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L114",
+      "id": "controlealmoxarifado_analisar_imagem_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
+      "label": "analisar_imagem.py",
+      "file_type": "code",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L1",
+      "id": "analisar_imagem_py",
+      "community": 0,
+      "norm_label": "analisar_imagem.py"
+    },
+    {
+      "label": "extrair_texto()",
+      "file_type": "code",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L39",
+      "id": "controlealmoxarifado_analisar_imagem_extrair_texto",
+      "community": 0,
+      "norm_label": "extrair_texto()"
+    },
+    {
+      "label": "analisar_cores()",
+      "file_type": "code",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L61",
+      "id": "controlealmoxarifado_analisar_imagem_analisar_cores",
+      "community": 0,
+      "norm_label": "analisar_cores()"
+    },
+    {
+      "label": "analisar_layout()",
+      "file_type": "code",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L97",
+      "id": "controlealmoxarifado_analisar_imagem_analisar_layout",
+      "community": 2,
+      "norm_label": "analisar_layout()"
+    },
+    {
+      "label": "analisar_imagem()",
+      "file_type": "code",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L145",
+      "id": "controlealmoxarifado_analisar_imagem_analisar_imagem",
+      "community": 0,
+      "norm_label": "analisar_imagem()"
+    },
+    {
+      "label": "analisar_imagem.py \u2014 Analisa imagens de layout web e gera descri\u00e7\u00e3o detalhada pa",
+      "file_type": "rationale",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L1",
+      "id": "controlealmoxarifado_analisar_imagem_rationale_1",
+      "community": 0,
+      "norm_label": "analisar_imagem.py \u2014 analisa imagens de layout web e gera descricao detalhada pa"
+    },
+    {
+      "label": "Extrai textos da imagem com bounding boxes.",
+      "file_type": "rationale",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L40",
+      "id": "controlealmoxarifado_analisar_imagem_rationale_40",
+      "community": 0,
+      "norm_label": "extrai textos da imagem com bounding boxes."
+    },
+    {
+      "label": "Extrai paleta de cores dominante e regi\u00f5es-chave.",
+      "file_type": "rationale",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L62",
+      "id": "controlealmoxarifado_analisar_imagem_rationale_62",
+      "community": 0,
+      "norm_label": "extrai paleta de cores dominante e regioes-chave."
+    },
+    {
+      "label": "Analisa estrutura do layout: dimens\u00f5es, regi\u00f5es, grid.",
+      "file_type": "rationale",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L98",
+      "id": "controlealmoxarifado_analisar_imagem_rationale_98",
+      "community": 2,
+      "norm_label": "analisa estrutura do layout: dimensoes, regioes, grid."
+    },
+    {
+      "label": "Pipeline completo de an\u00e1lise.",
+      "file_type": "rationale",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L146",
+      "id": "controlealmoxarifado_analisar_imagem_rationale_146",
+      "community": 0,
+      "norm_label": "pipeline completo de analise."
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_js",
+      "target": "controlealmoxarifado_analisar_imagem_dirname"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_js",
+      "target": "controlealmoxarifado_analisar_imagem_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_js",
+      "target": "controlealmoxarifado_analisar_imagem_analisarcomopenai"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_js",
+      "target": "controlealmoxarifado_analisar_imagem_analisarcomollama"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_js",
+      "target": "controlealmoxarifado_analisar_imagem_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_main",
+      "target": "controlealmoxarifado_analisar_imagem_analisarcomopenai"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.js",
+      "source_location": "L154",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_main",
+      "target": "controlealmoxarifado_analisar_imagem_analisarcomollama"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_py",
+      "target": "controlealmoxarifado_analisar_imagem_extrair_texto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_py",
+      "target": "controlealmoxarifado_analisar_imagem_analisar_cores"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_py",
+      "target": "controlealmoxarifado_analisar_imagem_analisar_layout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analisar_imagem_py",
+      "target": "controlealmoxarifado_analisar_imagem_analisar_imagem"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_rationale_1",
+      "target": "analisar_imagem_py"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_analisar_imagem",
+      "target": "controlealmoxarifado_analisar_imagem_extrair_texto"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_rationale_40",
+      "target": "controlealmoxarifado_analisar_imagem_extrair_texto"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_analisar_imagem",
+      "target": "controlealmoxarifado_analisar_imagem_analisar_cores"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_rationale_62",
+      "target": "controlealmoxarifado_analisar_imagem_analisar_cores"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_analisar_imagem",
+      "target": "controlealmoxarifado_analisar_imagem_analisar_layout"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_rationale_98",
+      "target": "controlealmoxarifado_analisar_imagem_analisar_layout"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analisar_imagem.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controlealmoxarifado_analisar_imagem_rationale_146",
+      "target": "controlealmoxarifado_analisar_imagem_analisar_imagem"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "90fbb214357de232ace416cccfa8ff74c726547f"
+}

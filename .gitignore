@@ -1,0 +1,6 @@
+_backup/
+node_modules/
+analisar_imagem.py
+analisar_imagem.js
+descricao_*.txt
+imagem.jpg
